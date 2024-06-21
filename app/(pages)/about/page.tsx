@@ -62,7 +62,7 @@ export default function AboutPage() {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <Avatar className="border">
+                  <Avatar className="border dark:bg-muted-foreground">
                     <AvatarImage src={contributor.avatar_url} />
                     <AvatarFallback>
                       {contributor.login.substring(0, 2)}
