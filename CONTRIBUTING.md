@@ -35,7 +35,7 @@ docs(CONTRIBUTING.md): add commit message guidelines
 feat(backend): add user authentication
 ```
 
-### Allowed types:
+### Allowed types
 
 - **feat**: A new feature
 - **fix**: A bug fix

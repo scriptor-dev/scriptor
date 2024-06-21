@@ -1,8 +1,10 @@
-# theorem
+# Theorem
 
 Challenge your Data Science Knowledge.
 
-## Description
+Theorem is a web application that allows you to test and measure your general knowledge in Data Science topics against
+others. The so called "Theorems" (Challenges) are created by some DS students and cover a wide range of topics, from
+basic math, coding, statistics to ML and other advanced topics.
 
 ## Development
 
@@ -15,6 +17,7 @@ npm run dev
 
 ## Contributing
 
-If you want to contribute to this project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Before you start working, please open an issue first, so we can discuss your ideas.
+If you want to contribute to this project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Before you start
+working, please open an issue first, so we can discuss your ideas.
 
 ## License
