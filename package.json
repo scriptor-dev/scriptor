@@ -8,7 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "lint:md": "markdownlint -i node_modules/ -i LICENSE.md .",
-    "lint:all": "npm run lint && npm run lint:md"
+    "lint:commit": "commitlint --from=origin/main",
+    "lint:all": "npm run lint && npm run lint:md && npm run lint:commit"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^9.5.0",
@@ -34,6 +40,8 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
