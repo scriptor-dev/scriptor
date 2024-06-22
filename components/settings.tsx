@@ -21,6 +21,7 @@ export const Settings = () => {
       <DialogTrigger asChild>
         <Button variant="outline" size="icon">
           <SettingsIcon className="h-[1.2rem] w-[1.2rem]" />
+          <span className="sr-only">Settings</span>
         </Button>
       </DialogTrigger>
       <DialogContent>
