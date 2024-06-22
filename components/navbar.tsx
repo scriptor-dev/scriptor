@@ -1,7 +1,7 @@
-import { ThemeToggle } from "./theme-toggle";
 import { Button } from "./ui/button";
 import { Logo } from "./logo";
 import { NavbarRoutes } from "./navbar-routes";
+import { Settings } from "./settings";
 
 export const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ export const Navbar = () => {
       <NavbarRoutes />
       <div className="flex items-center justify-between gap-x-2 md:justify-end">
         <Button size="sm">Log in</Button>
-        <ThemeToggle />
+        <Settings />
       </div>
     </div>
   );
