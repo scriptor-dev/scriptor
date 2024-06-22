@@ -3,6 +3,39 @@
 import { CircleCheck, Hourglass, Trophy } from "lucide-react";
 
 import { StatCard } from "./stat-card";
+import { Barchart } from "./barchart";
+import { Separator } from "@/components/ui/separator";
+
+const weeklyProgress = [
+  {
+    name: "Mon",
+    total: 2
+  },
+  {
+    name: "Tue",
+    total: 3.5
+  },
+  {
+    name: "Wed",
+    total: 4
+  },
+  {
+    name: "Thu",
+    total: 2
+  },
+  {
+    name: "Fri",
+    total: 1
+  },
+  {
+    name: "Sat",
+    total: 1
+  },
+  {
+    name: "Sun",
+    total: 3
+  }
+];
 
 export const PersonalBoard = () => {
   return (
@@ -28,9 +61,14 @@ export const PersonalBoard = () => {
           icon={Hourglass}
         />
       </div>
-      <div className="w-full flex flex-row gap-2 flex-wrap mt-2">
-        <hr className="w-full my-4" />
-        <div>SOME DATA VIZ WITH RECHART</div>
+      <Separator className="my-6" />
+      <div className="w-full flex flex-col gap-2">
+        <Barchart
+          title="Weekly Progress"
+          subtitle="Hours spent on Theorems per day."
+          unit="h"
+          values={weeklyProgress}
+        />
       </div>
     </>
   );
