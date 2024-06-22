@@ -20,4 +20,10 @@ npm run dev
 If you want to contribute to this project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Before you start
 working, please open an issue first, so we can discuss your ideas.
 
+<!-- markdownlint-disable MD033 -->
+<a href="https://github.com/theorem-dev/theorem/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=theorem-dev/theorem" alt="Contributors"/>
+</a>
+<!-- markdownlint-enable MD033 -->
+
 ## License
