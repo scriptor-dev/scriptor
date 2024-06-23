@@ -11,7 +11,7 @@
     "lint:commit": "commitlint --from=origin/main",
     "lint:all": "npm run lint && npm run lint:md && npm run lint:commit",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --e2e",
+    "cypress:run": "cypress run --e2e --browser chrome",
     "e2e:localhost:run": "server-test start http-get://localhost:3000 'npm run cypress:run'"
   },
   "commitlint": {
@@ -42,6 +42,7 @@
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.12.7",
+    "sharp": "^0.33.4",
     "swr": "^2.2.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
