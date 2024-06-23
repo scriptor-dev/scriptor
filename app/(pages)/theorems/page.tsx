@@ -9,6 +9,49 @@ import {
   SelectTrigger,
   SelectValue
 } from "@/components/ui/select";
+import { Axiom, AxiomProps } from "./_components/axiom";
+
+const theoremGroupValues: AxiomProps[] = [
+  {
+    id: 1,
+    title: "The start of a new Advent",
+    description:
+      "How does math work in the new Advent? During the advent time the math is different.",
+    date: new Date("2024-12-01"),
+    tags: ["math", "python"],
+    axioms: {
+      1: true,
+      2: false,
+      3: true
+    }
+  },
+  {
+    id: 2,
+    title: "Elfs and their math",
+    description: "How do the elven people use math?",
+    date: new Date("2024-12-02"),
+    tags: ["statistics", "python", "math"],
+    axioms: {
+      1: true,
+      2: true,
+      3: true
+    }
+  },
+  {
+    id: 3,
+    title: "The math of the future",
+    description: "What does the future hold for math?",
+    date: new Date("2024-12-03"),
+    tags: ["math", "python", "statistics", "future"],
+    axioms: {
+      1: false,
+      2: true,
+      3: true,
+      4: false,
+      5: true
+    }
+  }
+];
 
 export default function TheoremsPage() {
   const [theoremGroup, setTheoremGroup] = useState("advent2024");
@@ -34,6 +77,11 @@ export default function TheoremsPage() {
           <SelectItem value="testseries">Test Series</SelectItem>
         </SelectContent>
       </Select>
+      <div className="w-full flex flex-col items-start justify-start gap-y-4">
+        {theoremGroupValues.map((theoremGroupValue) => (
+          <Axiom key={theoremGroupValue.id} {...theoremGroupValue} />
+        ))}
+      </div>
     </div>
   );
 }
