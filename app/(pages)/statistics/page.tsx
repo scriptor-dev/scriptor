@@ -16,7 +16,7 @@ export default function LeaderboardPage() {
         <TabsList className="w-full flex justify-start flex-wrap">
           <TabsTrigger value="overall">Leaderboard</TabsTrigger>
           <TabsTrigger value="personal">Personal</TabsTrigger>
-          <TabsTrigger value="theorem">Theorem</TabsTrigger>
+          <TabsTrigger value="scriptor">Scriptor</TabsTrigger>
         </TabsList>
         <ScrollArea className="w-full h-[70vh] flex flex-col items-start justify-start rounded pt-2">
           <TabsContent value="overall" className="flex">
@@ -25,7 +25,7 @@ export default function LeaderboardPage() {
           <TabsContent value="personal">
             <PersonalBoard />
           </TabsContent>
-          <TabsContent value="theorem"></TabsContent>
+          <TabsContent value="scriptor"></TabsContent>
         </ScrollArea>
       </Tabs>
     </div>

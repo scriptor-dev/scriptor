@@ -1,14 +1,14 @@
-# Theorem
+# Scriptor
 
 Challenge your Data Science Knowledge.
 
-Theorem is a web application that allows you to test and measure your general knowledge in Data Science topics against
+Scriptor is a web application that allows you to test and measure your general knowledge in Data Science topics against
 others. The so called "Theorems" (Challenges) are created by some DS students and cover a wide range of topics, from
 basic math, coding, statistics to ML and other advanced topics.
 
 ## Development
 
-To run the Theorem project simply make sure you have a Node runtime installed and run the following commands:
+To run the Scriptor project simply make sure you have a Node runtime installed and run the following commands:
 
 ```bash
 npm install
@@ -21,8 +21,8 @@ If you want to contribute to this project, please read the [CONTRIBUTING.md](CON
 working, please open an issue first, so we can discuss your ideas.
 
 <!-- markdownlint-disable MD033 -->
-<a href="https://github.com/theorem-dev/theorem/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=theorem-dev/theorem" alt="Contributors"/>
+<a href="https://github.com/scriptor-dev/scriptor/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=scriptor-dev/scriptor" alt="Contributors"/>
 </a>
 <!-- markdownlint-enable MD033 -->
 

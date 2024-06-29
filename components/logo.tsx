@@ -33,7 +33,7 @@ export const Logo = ({ force }: LogoProps) => {
         alt="Logo"
         className="hidden dark:block"
       />
-      <p className={cn("font-semibold", font.className)}>Theorem</p>
+      <p className={cn("font-semibold", font.className)}>Scriptor</p>
     </Link>
   );
 };

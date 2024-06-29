@@ -40,7 +40,7 @@ describe("Navigation", () => {
 
     it("should navigate from logo to the / page", () => {
       cy.visit("/about");
-      cy.get('a[href="/"]').get("p").contains("Theorem").click();
+      cy.get('a[href="/"]').get("p").contains("Scriptor").click();
       cy.get("h1").contains("Prove & Show your Data Science Skills with");
     });
   });

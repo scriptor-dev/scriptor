@@ -42,7 +42,7 @@ export const Settings = () => {
           <div className="flex flex-col gap-y-1">
             <Label>Analytics</Label>
             <span className="text-[0.8rem] text-muted-foreground">
-              Can we collect anonymous data to improve the Theorem experience?
+              Can we collect anonymous data to improve the experience?
             </span>
           </div>
           <Switch />

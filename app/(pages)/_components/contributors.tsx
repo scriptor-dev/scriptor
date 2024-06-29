@@ -50,7 +50,7 @@ const fetchContributors = (url: string) => {
 
 export const Contributors = () => {
   const { data, error } = useSWR(
-    "https://api.github.com/repos/theorem-dev/theorem/contributors",
+    "https://api.github.com/repos/scriptor-dev/scriptor/contributors",
     fetchContributors
   );
 

@@ -8,7 +8,7 @@ import { Navbar } from "@/components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Theorem",
+  title: "Scriptor",
   description: "Challenge your Data Science Knowledge",
   icons: [
     {
@@ -37,7 +37,7 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-          storageKey="theorem-theme"
+          storageKey="scriptor-theme"
         >
           <div className="h-full dark:bg-[#1f1f1f]">
             <Navbar />

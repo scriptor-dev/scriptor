@@ -24,14 +24,14 @@ export default function AboutPage() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Who is behind Theorem?</AccordionTrigger>
+          <AccordionTrigger>Who is behind Scriptor?</AccordionTrigger>
           <AccordionContent>
-            Theorem was initiated by the DS22-t class of the Bachelor program
+            Scriptor was initiated by the DS22-t class of the Bachelor program
             Data Science at the University of Applied Sciences ZHAW.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>How can I support Theorem?</AccordionTrigger>
+          <AccordionTrigger>How can I support Scriptor?</AccordionTrigger>
           <AccordionContent>
             The app was built and tested by volunteers. We would be delighted if
             you would simply use the app and give us some brief feedback.
@@ -40,16 +40,16 @@ export default function AboutPage() {
       </Accordion>
       <h3 className="text-xl font-bold md:text-2xl">Contributors</h3>
       <p className="text-justify">
-        Theorem is an Open Source project and every contribution is welcome!
+        Scriptor is an Open Source project and every contribution is welcome!
         Many thanks to all the contributors who are part of this project. Any
         idea for new features or improvements is welcome. Feel free to open an
         issue for discussion.
       </p>
       <Contributors />
       <Button variant="outline" size="default" asChild>
-        <a href="https://github.com/theorem-dev/theorem" target="_blank">
+        <a href="https://github.com/scriptor-dev/scriptor" target="_blank">
           <SiGithub className="h-6 w-6 mr-2" />
-          Theorem GitHub
+          Scriptor GitHub
         </a>
       </Button>
     </div>
